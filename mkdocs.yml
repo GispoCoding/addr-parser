@@ -1,0 +1,74 @@
+site_name: Address Parser
+site_url: https://gispocoding.github.io/addr-parser
+repo_url: https://github.com/gispocoding/addr-parser
+repo_name: gispocoding/addr-parser
+#strict: true
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Localization support:
+      - FI: locales/fi.md
+  - Usage: usage.md
+  - Modules: api.md
+  - Contributing: contributing.md
+  - Changelog: changelog.md
+theme:
+  name: material
+  language: en
+  #logo: assets/logo.png
+  palette:
+    scheme: preference
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tabs.sticky
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - toc:
+      baselevel: 2
+      permalink: true
+      slugify: !!python/name:pymdownx.slugs.uslugify
+plugins:
+  - include-markdown
+  - search:
+      lang: en
+  - mkdocstrings
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/gispocoding/addr-parser
+      name: Github
+    - icon: material/email
+      link: "mailto:lauri.kajan@gispo.fi"
+watch:
+  - addrparser

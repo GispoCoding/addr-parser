@@ -1,0 +1,5 @@
+[flake8]
+max-line-length = 88
+extend-ignore = E203
+docstring-convention = google
+min_python_version = 3.7.0
