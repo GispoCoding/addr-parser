@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://gispocoding.github.io/addr-parser/</loc>
-         <lastmod>2022-06-20</lastmod>
+         <lastmod>2022-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://gispocoding.github.io/addr-parser/api/</loc>
-         <lastmod>2022-06-20</lastmod>
+         <lastmod>2022-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://gispocoding.github.io/addr-parser/changelog/</loc>
-         <lastmod>2022-06-20</lastmod>
+         <lastmod>2022-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://gispocoding.github.io/addr-parser/contributing/</loc>
-         <lastmod>2022-06-20</lastmod>
+         <lastmod>2022-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://gispocoding.github.io/addr-parser/installation/</loc>
-         <lastmod>2022-06-20</lastmod>
+         <lastmod>2022-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://gispocoding.github.io/addr-parser/usage/</loc>
-         <lastmod>2022-06-20</lastmod>
+         <lastmod>2022-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://gispocoding.github.io/addr-parser/locales/fi/</loc>
-         <lastmod>2022-06-20</lastmod>
+         <lastmod>2022-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
