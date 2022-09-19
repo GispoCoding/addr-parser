@@ -7,7 +7,7 @@ from .parser import AddressParseException, AddressParser
 
 __author__ = """Lauri Kajan"""
 __email__ = "lauri.kajan@gispo.fi"
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 
 @dataclass
