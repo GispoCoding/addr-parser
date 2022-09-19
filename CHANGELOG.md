@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] (2022-09-19)
+### Added
+- Add support for python 3.6. I know this is stupid! So are customers legacy systems.
+
 ## [0.1.0] (2022-06-20)
 ### Added
 - Support for Finnish addresses

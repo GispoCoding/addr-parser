@@ -3,7 +3,9 @@ repos:
       rev: v1.2.0
       hooks:
           - id: forbid-crlf
+            exclude: poetry.lock
           - id: remove-crlf
+            exclude: poetry.lock
     - repo: https://github.com/pre-commit/pre-commit-hooks
       rev: v4.3.0
       hooks:
