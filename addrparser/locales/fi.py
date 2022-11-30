@@ -54,7 +54,7 @@ huoneisto_osa = Or(
     [
         (porras(ENTRANCE) + Opt(Suppress(Space()) + huoneisto(APARTMENT_NUMBER))),
         (
-            Suppress(one_of(["as.", "bst."]))
+            Suppress(one_of(["as",  "bst"]) + Opt("."))
             + Suppress(Space())
             + huoneisto(APARTMENT_NUMBER)
         ),
